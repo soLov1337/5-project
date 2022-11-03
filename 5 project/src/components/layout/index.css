@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&family=Poppins:wght@200&display=swap');
+
+
+
+.lilayout {
+	list-style-type: none; 
+	padding: 10px;
+	width: 180px;
+	height: 60px;
+	background: transparent;
+	border: 1px solid #92def2;
+	outline: none;
+	transition: 300ms ease-in-out;
+	display: flex;
+    align-items: center;
+  }
+
+  li:hover {
+	transition: 300ms ease-in-out;
+	background:#b5e9f5;
+ }
+
+.ullayout {
+	padding: 0 20px 0 0;
+}
+
+.modal{
+	background-color:#d9f3fa;
+	height: 100vh;
+	position: absolute;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+}
